@@ -12,7 +12,7 @@ body {
   margin: 0;
   font-family: Arial, sans-serif;
   line-height: 1.6;
-  background: var(--bg-color);
+  background-color:palevioletred ;
   color: var(--text-color);
 }
 
@@ -22,17 +22,21 @@ nav {
   align-items: center;
   background: var(--nav-bg);
   color: var(--nav-text);
-  padding: 1rem 2rem;
+  padding: 15px 30px;
+  margin-bottom: 20px;
 }
 
 nav h1 {
   margin: 0;
+  padding: 2px;
+  color: #007acc;
 }
 
 nav ul {
   list-style: none;
   display: flex;
   gap: 1rem;
+  
   margin: 0;
 }
 
@@ -54,9 +58,7 @@ main {
   padding: 0 1rem;
 }
 
-section {
-  margin-bottom: 3rem;
-}
+
 
 .projects-grid {
   display: grid;
@@ -103,4 +105,18 @@ body.dark {
   --hero-bg: #333;
   --card-bg: #1e1e1e;
   --footer-bg: #222;
+}
+#about,#projects,#contact{
+       padding: 80px 10%;
+       margin: 40px 0;
+}
+#about {
+  background-color: plum;
+  margin: 20px;
+  border: 2px solid purple;
+  border-radius: 3px;
+}
+.project-card{
+  padding: 30px;
+  margin: 20px 0;
 }
